@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <lable>Name:</lable>
+        <input type="text" placeholder="Enter your name" /><br><br>
+
+        <lable>Date Of Birth:</lable>
+                <input type="date" placeholder="Enter your date" /><br><br>
+                                  <lable>Gender:</lable>
+    
+                <input type="radio" id="male" name="gender" value="male" />
+
+                        <lable>MALE</lable>
+        <input type="radio" id="female" name="gender" value="female" />
+        <lable>FEMALE</lable><br>
+        <input type="radio" id="other" name="gender" value="other" />
+        <lable>OTHER</lable><br>
+    </fieldset>
+    <fieldset>
+      <legend>Contact Information</legend>
+              <lable>Email:</lable>
+
+
+        <input type="email" placeholder="Email" /> <br><br>
+
+        <lable> Phone Number:</lable>
+        <input type="number" placeholder="Phone number" /><br><br>
+        <span>Address:</span><br>
+        <textarea id="address" rows="4" cols="50" placeholder="Address"></textarea><br><br>
+        </fieldset>
+<fieldset>
+        <legend>Account Details</legend>
+        <label>Username:</lable>
+            <input type="text" placeholder="Username" /><br><br>
+        <lable>Password:</lable>
+
+        <input type="password" placeholder="Password" /><br><br>
+                  <lable>Confirm Password:</lable>
+
+        <input type=" confirm password" placeholder="Confirm  password" /><br><br>
+        </fieldset > 
+<fieldset>
+        <legend>Preferences</legend>
+        <lable>Favourite Colour:</lable>
+        <input type="colour" placeholder="Favourite Colour" /><br><br>
+        <label>Upload Profile Picture:</label>
+        <input type="file" accept="image/*" /><br><br>
+        <lable>Interest:</lable>
+                        <input type="radio" id="reading" name="interest" value="reading" />
+        <lable>Reading</lable>
+        <input type="radio" id="travelling" name="interest" value="reading" />
+        <lable>Travelling</lable>
+        <input type="radio" id="coding" name="interest" value="coding" />
+        <lable>Coding</lable>
+</fieldset>
+
+        <input type="submit" value="Submit" /><br><br>
+ </form>
+</body>
+
+</html>
