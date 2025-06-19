@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Profile Cards</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Algerian, sans-serif;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .card-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            width: 250px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            position: relative;
+            text-align: center;
+        }
+
+        .card-banner {
+            height: 100px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 4px solid white;
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-content {
+            padding: 60px 20px 20px;
+        }
+
+        .card h2 {
+            margin: 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .card p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.9em;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        .follow-btn {
+            background-color: #6a0dad;
+            width: 100%;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 0.9em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .follow-btn:hover {
+            background-color: #2fd419;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+     
+        <div class="card">
+            <div class="card-banner" style="background-image: url('WhatsApp Image 2025-06-19 at 10.49.35_58ae449c.jpg');"></div>
+            <div class="profile-img" style="background-image: url('WhatsApp Image 2025-06-19 at 10.50.06_4fa0f6fa.jpg');"></div>
+            <div class="card-content">
+                <h2>Sea</h2>
+                <p>Hi there! This is Vanshika, I love to go beaches.</p>
+                <button class="follow-btn">Follow</button>
+            </div>
+        </div>
+
+        
+        <div class="card">
+            <div class="card-banner" style="background-image: url('WhatsApp Image 2025-06-19 at 10.49.35_ed0ece95.jpg');"></div>
+            <div class="profile-img" style="background-image: url('WhatsApp Image 2025-06-19 at 10.50.06_a3bcc889.jpg');"></div>
+            <div class="card-content">
+                <h2>Sand</h2>
+                <p>These pictures are back from the time I've been to Jaggnath Puri </p>
+                <button class="follow-btn">Follow</button>
+            </div>
+        </div>
+        
+
+        
+        <div class="card">
+            <div class="card-banner" style="background-image: url('WhatsApp Image 2025-06-19 at 10.49.36_3b26a884.jpg');"></div>
+            <div class="profile-img" style="background-image: url('WhatsApp Image 2025-06-19 at 10.50.05_a8ec001f.jpg');"></div>
+            <div class="card-content">
+                <h2>Waves</h2>
+                <p>It was so much funnnnnn!!!!!</p>
+                <button class="follow-btn">Follow</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
